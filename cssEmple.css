@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+ }
+body {
+    background: 
+    linear-gradient(135deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, black 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, black 25%, transparent 25%),
+    linear-gradient(45deg, black 25%, transparent 25%);	
+    background-size: 2em 2em;
+    background-color: #232323;
+}
+.coteret {
+    height: 4vh;
+    margin-top: 0px;
+    color: white;
+    background-color:black;
+}
+.coteret h1{
+    margin-left: 45%;
+}
+video{
+    height:400px;
+    width: 500px;
+    padding: 20px;
+}
+.openingCall {
+    position: relative;
+    width:  400px;
+    height: 100px;
+    margin: 100px auto;
+}
+.openingCall .info {
+    color: white;
+    font-size: 30px;
+    font-weight:bold;
+    outline: 15px outset #776E6A;
+    outline-offset: 20px;
+    position: relative;
+    width: 600px;
+    height: 100px;
+    float: left;
+    margin:15px;
+    margin-left: 0px;
+}
+.connectCall {
+    position: relative;
+    width:  400px;
+    height: 100px;
+    margin: 100px auto;
+}
+.formGroup input{
+    background-color: #282828;
+    padding: 10px;
+    margin:10px 0;
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    margin-left: 25%;
+    color:white;
+}
+.formGroup input::placeholder{
+    color:white;
+}
+.submitReset{
+    margin-left: 30%;
+}
+.submitReset button{
+    display:inline-block;
+    padding:0.7em 1.4em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color:#668fff;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+}
+.openForm{
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid #91C9FF;
+    outline: none;
+    transition: 1s ease-in-out;
+    margin-left: 25%;
+}
+
+
